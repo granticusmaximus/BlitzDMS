@@ -1,0 +1,12 @@
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/bin/Debug/net7.0/BlitzDMS.Shared.deps.json
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/bin/Debug/net7.0/BlitzDMS.Shared.dll
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/bin/Debug/net7.0/BlitzDMS.Shared.pdb
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/obj/Debug/net7.0/BlitzDMS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/obj/Debug/net7.0/BlitzDMS.Shared.AssemblyInfoInputs.cache
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/obj/Debug/net7.0/BlitzDMS.Shared.AssemblyInfo.cs
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/obj/Debug/net7.0/BlitzDMS.Shared.csproj.CoreCompileInputs.cache
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/obj/Debug/net7.0/BlitzDMS.Shared.sourcelink.json
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/obj/Debug/net7.0/BlitzDMS.Shared.dll
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/obj/Debug/net7.0/refint/BlitzDMS.Shared.dll
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/obj/Debug/net7.0/BlitzDMS.Shared.pdb
+/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Shared/obj/Debug/net7.0/ref/BlitzDMS.Shared.dll

@@ -30,6 +30,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aGVudGljYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/CategoriesComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllc0NvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/CategoryComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnlDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/ChartOfAccount.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcnRPZkFjY291bnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/ChartOfAccounts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcnRPZkFjY291bnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,8 +54,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/GroupCategories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JvdXBDYXRlZ29yaWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/GroupCategory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JvdXBDYXRlZ29yeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/ItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/ItemsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbXNDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/MeasurementUnit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWVhc3VyZW1lbnRVbml0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Pages/MeasurementUnits.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWVhc3VyZW1lbnRVbml0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/grantwatson/Desktop/Development/CSharp/BlitzDMS/Client/Shared/LoginDisplay.razor]

@@ -87,7 +87,7 @@ main[b-qlrkiig3sp] {
 
 .top-row[b-3mgyfd0dpx] {
     height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar-brand[b-3mgyfd0dpx] {
@@ -106,30 +106,30 @@ main[b-qlrkiig3sp] {
     padding-bottom: 0.5rem;
 }
 
-    .nav-item:first-of-type[b-3mgyfd0dpx] {
-        padding-top: 1rem;
-    }
+.nav-item:first-of-type[b-3mgyfd0dpx] {
+    padding-top: 1rem;
+}
 
-    .nav-item:last-of-type[b-3mgyfd0dpx] {
-        padding-bottom: 1rem;
-    }
+.nav-item:last-of-type[b-3mgyfd0dpx] {
+    padding-bottom: 1rem;
+}
 
-    .nav-item[b-3mgyfd0dpx]  a {
-        color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-    }
+.nav-item[b-3mgyfd0dpx]  a {
+    color: #d7d7d7;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
 
 .nav-item[b-3mgyfd0dpx]  a.active {
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255, 255, 255, 0.25);
     color: white;
 }
 
 .nav-item[b-3mgyfd0dpx]  a:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     color: white;
 }
 
@@ -141,11 +141,6 @@ main[b-qlrkiig3sp] {
     .collapse[b-3mgyfd0dpx] {
         /* Never collapse the sidebar for wide screens */
         display: block;
-    }
     
-    .nav-scrollable[b-3mgyfd0dpx] {
-        /* Allow sidebar to scroll for tall menus */
-        height: calc(100vh - 3.5rem);
-        overflow-y: auto;
-    }
+}
 }

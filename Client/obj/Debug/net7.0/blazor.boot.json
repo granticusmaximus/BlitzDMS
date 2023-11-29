@@ -208,8 +208,8 @@
       "mscorlib.dll": "sha256-Xo3wdLenBZ41X73hGjkWTbEQZDKcQsnPFtlkePUxLY0=",
       "netstandard.dll": "sha256-qjqaAEP3hdLnU\/TnoCd8HaSa+0ruV1TpdaB2GUujGMw=",
       "System.Private.CoreLib.dll": "sha256-\/7uQ+eNo9u3H1mpgMko4D3tKZHeGRfsRjna0Dqsu62k=",
-      "BlitzDMS.Shared.dll": "sha256-um7xt+30Fq\/uUYhS6UPg1ROOA6+AxkhMer9uC4toSwA=",
-      "BlitzDMS.Client.dll": "sha256-eV4TZxvuzvwwNKv6U62dLwfIuFvRitmK6RHwx\/iNnBE="
+      "BlitzDMS.Shared.dll": "sha256-b7ByPkU+ZWFUPElXzn9TJ8ImMk7q3yRNFXRryyqp8Wg=",
+      "BlitzDMS.Client.dll": "sha256-ku2A5OAvqsEdfmZJI+UvYmvgka8gw0s3VkLTPsjBm2c="
     },
     "extensions": null,
     "hash": null,
@@ -217,8 +217,8 @@
     "libraryInitializers": null,
     "libraryStartupModules": null,
     "pdb": {
-      "BlitzDMS.Shared.pdb": "sha256-jzhnUSTn9Ay2aNLT\/08wITHSIM7K\/vADOIitklOZQew=",
-      "BlitzDMS.Client.pdb": "sha256-9LagpNL+fhpzjPUCc6H37LX+yuf7gsoTZxGzJASEdfE="
+      "BlitzDMS.Shared.pdb": "sha256-eH6QbiER52fC1QxNait472x8XwxD01t3fup9AqtfWxE=",
+      "BlitzDMS.Client.pdb": "sha256-RK7qGtg4gF0xerNNpYP0ajPeE9k+zNDYHpHCmu9uD90="
     },
     "remoteSources": null,
     "runtime": {

@@ -1,0 +1,60 @@
+@page "/groupcategories"
+@using BlitzDMS.Client.Services.CategoryGroupService
+@inject ICategoryGroupService CategoryGroupService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime
+
+<PageTitle>Category Groups</PageTitle>
+<h2>Category Groups</h2>
+
+<button class="btn btn-primary" style="float:right" @onclick="CreateNewCategoryGroup">Create</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cg in CategoryGroupService.GroupsCategory)
+        {
+            <tr>
+                <td>@cg.Id</td>
+                <td>@cg.Title</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="(()=>ShowCategoryGroup(cg.Id))"><i
+                            class="oi oi-pencil" /></button>
+                </td>
+                <td>
+                    <button class="btn btn-danger" @onclick="(()=>DeleteItem(cg.Id))"><i class="oi oi-trash" /></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await CategoryGroupService.GetCategoryGroups();
+    }
+    void ShowCategoryGroup(int id)
+    {
+        NavigationManager.NavigateTo($"groupcategory/{id}");
+    }
+    void CreateNewCategoryGroup()
+    {
+        NavigationManager.NavigateTo("/groupcategory");
+    }
+    async Task DeleteItem(int id)
+    {
+        bool confirmed = await JsRuntime.InvokeAsync<bool>("confirm", "Are you sure?");
+        if (confirmed)
+        {
+            await CategoryGroupService.DeleteCategoryGroup(id);
+        }
+    }
+}

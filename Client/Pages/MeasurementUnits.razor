@@ -1,0 +1,64 @@
+@page "/measurementunits"
+@using BlitzDMS.Shared.Models
+@using BlitzDMS.Client.Services.UnitService
+@inject IUnitService UnitService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime
+
+<PageTitle>Measurement Units</PageTitle>
+<h3>Measurement Units</h3>
+
+<button class="btn btn-primary" style="float:right" @onclick="CreateNewUnit">Create</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Type</th>
+            <th>Decription</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var unit in UnitService.Unit)
+        {
+            <tr>
+                <td>@unit.Id</td>
+                <td>@unit.Type</td>
+                <td>@unit.Description</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="(()=>ShowUnit(unit.Id))"><i class="oi oi-pencil" /></button>
+                </td>
+                <td>
+                    <button class="btn btn-danger" @onclick="(()=>DeleteItem(unit.Id))"><i class="oi oi-trash" /></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+@code {
+    Unit unit = new Unit();
+    protected override async Task OnInitializedAsync()
+    {
+        await UnitService.GetUnits();
+    }
+    void ShowUnit(int id)
+    {
+        NavigationManager.NavigateTo($"measurementunit/{id}");
+    }
+    void CreateNewUnit()
+    {
+        NavigationManager.NavigateTo("/measurementunit");
+    }
+    async Task DeleteItem(int id)
+    {
+        bool confirmed = await JsRuntime.InvokeAsync<bool>("confirm", "Are you sure?");
+        if (confirmed)
+        {
+            await UnitService.DeleteUnit(id);
+            //await UnitService.RemoveUnit(unit);
+        }
+    }
+}

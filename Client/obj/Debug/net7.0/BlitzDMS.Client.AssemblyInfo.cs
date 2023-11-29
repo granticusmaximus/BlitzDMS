@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlitzDMS.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7575fb1ef23cb005baf125395507c5b6ecb96db7")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+>>>>>>> 835f791 (Update)
 [assembly: System.Reflection.AssemblyProductAttribute("BlitzDMS.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlitzDMS.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
